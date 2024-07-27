@@ -1,0 +1,30 @@
+.deco{
+    color: indigo;    
+    background-image: url(photos/IMG-20240723-WA0034.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+.deco::first-letter{
+    font-size: 50px;
+    color: red;
+}
+.para{
+    position:bottom;
+    font-size:30px;
+}
+.pic{
+    display:inline-block;
+}
+.search input{
+    padding:15px;
+    font-size:20px;
+    border-radius: 10px;;
+    position: right;
+}
+.search button{
+    padding:15px;
+    font-size:20px;
+    border-radius: 10px;
+}
