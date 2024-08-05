@@ -1,0 +1,79 @@
+.deco{
+    color: blue;    
+    background-image: url(peace.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.deco::first-letter{
+    font-size: 50px;
+    color: red;
+
+}
+.para{
+    text-align: center;
+    color:yellow;
+    font-size:30px;
+}
+#nave{
+    text-align: center;
+    font-size: 30px;;
+    border-color: white;
+    padding:20px;
+}
+body{
+    background-color: paleturquoise;
+}
+a:hover{
+    color:red;
+}
+.link{
+    padding:80px;
+}
+section{
+    padding:30px;
+}
+.image{
+    display:inline-flex;
+    width:200px;
+    height:200px;
+    justify-content:space-between;
+}
+#pic{
+    background-color:#f0f0f0;
+    border:10px solid #ccc;
+}
+.search{
+    text-align: center;
+}
+.image{
+    padding:20px;
+}
+.search input{
+    padding:15px;
+    font-size:20px;
+    border-radius: 10px;;
+}
+.search button{
+    padding:15px;
+    font-size:20px;
+    border-radius: 10px;
+}
+.foot{
+    background-color: black;
+}
+#pic button{
+    justify-content:space-around;
+}
+.search input{
+    font-size:20px;
+}
+h2{
+    font-size: 28px;
+    color:black;
+}
+.copy{
+    color:yellow;
+    text-align: center;
+    padding:20px;
+}

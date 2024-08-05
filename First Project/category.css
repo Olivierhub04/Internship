@@ -1,0 +1,17 @@
+.deco{
+    color: blue;    
+    background-image: url(peace.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.deco::first-letter{
+    font-size: 50px;
+    color: red;
+
+}
+.para{
+    text-align: center;
+    color:yellow;
+    font-size:30px;
+}

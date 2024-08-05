@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" initial-scale=1.0>
+        <link rel="stylesheet" href="sign.css">
+        <script>
+            var password=document.getElementById("password");
+            var confirm_password=document.getElementById("confirm_password");
+            function validatePassword(){
+                if(password.value !=confirm_passsword.value){
+                    confirm_password.setCustomValidity("Passwords don't match");
+                }
+                else{
+                    confirm_password.setCustomValidity(");
+                }
+            }
+        </script>
+
+    </head>
+    <body>
+        <div class="deco">
+            <h1 class="deco1">Smith's site</h1>
+            <p class="para"> WELCOME TO MY GAMING WEBSITE</p>
+        </div>
+        <div class="space">
+            <nav id="nave">
+                <a href="home.html" class="link"> HOME</a>
+                <a href="#" class="link"> ABOUT</a>
+                <a href="#" class="link"> CATEGORY</a>
+                <a href="#" class="link"> CONTACT US</a>
+                
+            </nav>
+        </div>
+        <div class="sign">
+            <form input type="action" method="get">
+             <label for="first-name">Name</label>:<br><input type="text" placeholder="enter name" method="get"><br>
+             <label for="username"> Username</label>:<br><input type="text" placeholder="enter username"><br>
+             <label for="email"> Email</label><br><input type="text" placeholder="enter email"><br>
+             <label for="password"> Password</label><br><input type="password" placeholder="enter password" id="password" name="password" required><br>
+             <label for="confirm_password"> Re-enter password</label><br><input type="password" id="confirm_password" placeholder="re-enter password" name="confirm_password" required><br>
+             <button>SIGN IN</button>    
+            </form>    
+        </div>
+</html>

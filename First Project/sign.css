@@ -1,0 +1,46 @@
+body{
+    background-color: palegoldenrod;
+}
+.deco{
+    color: blue;    
+    background-image: url(peace.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.deco::first-letter{
+    font-size: 50px;
+    color: red;
+
+}
+.para{
+    text-align: center;
+    color:yellow;
+    font-size:30px;
+}
+#nave{
+    text-align: center;
+    font-size: 30px;;
+    background-color: aquamarine;
+}
+a:hover{
+    color:orange;
+}
+    .link{
+        padding:80px;
+    }
+    .sign input{
+        padding:20px;
+        text-align: center;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    .sign{
+        text-align: center;
+        font-size: 25px;
+        padding:25px;
+    }
+    .sign button{
+        font-size: 20px;
+    }
+   
